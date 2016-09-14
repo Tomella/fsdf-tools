@@ -1,11 +1,10 @@
 var fs = require('fs');
 
 // Make the output directory if it doesn't exist
-try {
-  fs.mkdirSync("output");
-} catch(e) {
-  if ( e.code !== 'EEXIST' ) throw e;
-}
+fs.existsSync("output") || fs.mkdirSync("output");
 
+// Build the basins JSON
 require('./tools/basins.js');
+
+// Build the catchments JSON
 require('./tools/catchments.js');
