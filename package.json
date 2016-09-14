@@ -1,0 +1,23 @@
+{
+  "name": "fsdf-tools",
+  "version": "0.0.1",
+  "description": "Support tools for fsdf-elvis. Builds reference data from services etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomella/fsdf-tools.git"
+  },
+  "author": "Tomella",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Tomella/fsdf-tools/issues"
+  },
+  "homepage": "https://github.com/Tomella/fsdf-tools#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "request": "^2.74.0"
+  }
+}

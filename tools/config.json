@@ -1,0 +1,13 @@
+{
+   "core": {
+      "outputDirectory": "output/"
+   },
+   "catchments":{
+      "filename": "catchments.json",
+      "allDataUrl":"http://services.ga.gov.au/site_1/rest/services/Surface_Hydrology_WM/MapServer/6/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=*&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson"
+   },
+   "basins":{
+      "filename": "basins.json",
+      "allDataUrl":"http://services.ga.gov.au/site_1/rest/services/Surface_Hydrology_WM/MapServer/7/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=*&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=4326&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson"
+   }
+}
